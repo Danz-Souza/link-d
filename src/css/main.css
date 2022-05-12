@@ -142,9 +142,8 @@ footer img{
 
 
 @media screen and (max-width: 900px){
-   .principal{
-        margin: 20px 0 0 0;
-        width: 150vw;
+    .principal{
+        margin: 40px 0 0 0;
     }
     
     .fotinha{
@@ -153,16 +152,25 @@ footer img{
         width: 90vw;
     }
 
+    .textos span{
+        font-size: 35px;
+    }
+
+    .conteudo{
+        width: 100%;
+    }
+
+    .sobre{
+        padding: 0 40px 0 40px;
+        font-size: 23px;
+    }
+
     .social-media{
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 15px;
         }
-    
-   .sobre{
-        padding: 0 40px 0 40px;
-    }
     
     .social-media a{
         width: 50vh;
@@ -176,7 +184,7 @@ footer img{
 
 @media screen and (max-width: 600px){
     .principal{
-        margin: 20px 0 0 0;
+        margin: 40px 0 0 0;
         width: 150vw;
     }
     
@@ -186,12 +194,21 @@ footer img{
         max-width: 250px;
     }
 
+    .textos{
+        font-size: 25px;
+    }
+
+    .textos span{
+        font-size: 35px;
+    }
+
     .conteudo{
         width: 100%;
     }
-    
+
     .sobre{
         padding: 0 40px 0 40px;
+        font-size: 23px;
     }
 
     .social-media{
