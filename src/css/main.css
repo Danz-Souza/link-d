@@ -142,6 +142,11 @@ footer img{
 
 
 @media screen and (max-width: 900px){
+   .principal{
+        margin: 20px 0 0 0;
+        width: 150vw;
+    }
+    
     .fotinha{
         display: flex;
         justify-content: center;
@@ -156,7 +161,7 @@ footer img{
         }
     
     .social-media a{
-        width: 60vh;
+        width: 50vh;
     }
 
     footer{
@@ -167,6 +172,7 @@ footer img{
 
 @media screen and (max-width: 600px){
     .principal{
+        margin: 20px 0 0 0;
         width: 150vw;
     }
     
