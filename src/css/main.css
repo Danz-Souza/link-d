@@ -160,6 +160,10 @@ footer img{
         gap: 15px;
         }
     
+    .textos{
+        border: 0 10px 0 10px;
+    }
+    
     .social-media a{
         width: 50vh;
     }
@@ -184,6 +188,10 @@ footer img{
 
     .conteudo{
         width: 100%;
+    }
+    
+    .textos{
+        border: 0 10px 0 10px;
     }
 
     .social-media{
