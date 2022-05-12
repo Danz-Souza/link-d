@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+/*font-family: 'Alfa Slab One', cursive;*/
+
+body{
+    background-color: #121212;
+    font-family: 'Patua One', cursive;
+    height: 100%;
+}
+
+
+.principal{
+    min-width: 90vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0 0 0;
+}
+
+
+.fotinha{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.glob{
+    display: flex;
+    justify-content: center;
+}
+
+.svg{
+    fill: #00ADE1;
+    width: 26rem;
+}
+
+.image{
+    width: 10rem;
+}
+
+
+.textos{
+    text-align: center;
+}
+
+.textos span{
+    font-size: 25px;
+    color:#00ADE1;    
+}
+
+.conteudo{
+    min-width: 20vw;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 600px;
+}
+
+.conteudo h1{
+    
+    font-size: 50px;
+    text-align: center;
+}
+
+.btnprincipais{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btnprincipais a{
+    width: 250px;
+    height: 40px; 
+    display: flex;
+    background-color: #00ADE1;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+}
+
+.btnprincipais img{
+    max-width: 60px;
+    
+}
+
+hr{   
+    border-color: #00ADE1;
+    border-width: 1px;
+    width: 100%;
+}
+
+.sobre{
+    text-align: center;
+    font-size: 20px;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.social-media a{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+    padding: 7px 20px 7px 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid;
+    border-color: #00ADE1;
+    text-decoration: none;
+    color: #00ADE1;
+    font-size: 17px;
+}
+
+.social-media a i{
+    color: #fff;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+
+@media screen and (max-width: 900px){
+    .fotinha{
+        display: flex;
+        justify-content: center;
+        width: 90vw;
+    }
+
+    .social-media{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        }
+    
+    .social-media a{
+        width: 60vh;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .principal{
+        width: 150vw;
+    }
+    
+    .fotinha{
+        display: flex;
+        justify-content: center;
+        max-width: 250px;
+    }
+
+    .conteudo{
+        width: 100%;
+    }
+
+    .social-media{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        }
+    
+    .social-media a{
+        width: 40vh;
+    }
+}
