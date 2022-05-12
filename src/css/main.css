@@ -129,6 +129,17 @@ hr{
     padding-right: 10px;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 150px;
+}
+
+footer img{
+    max-width: 50px;
+}
+
 
 @media screen and (max-width: 900px){
     .fotinha{
@@ -146,6 +157,11 @@ hr{
     
     .social-media a{
         width: 60vh;
+    }
+
+    footer{
+        padding-top: 100px;
+        width: 150vw;
     }
 }
 
